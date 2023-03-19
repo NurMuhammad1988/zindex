@@ -1,0 +1,156 @@
+body {
+    background: rgb(168, 163, 163);
+}
+
+.container {
+    width: 75%;
+    padding: 15px;
+    background: #fff;
+    margin: auto;
+    position: relative;
+}
+
+.myd {
+    display: flex;
+    background-color: rgb(165, 136, 42);
+
+}
+
+
+.myd1 {
+    display: block;
+    background-color: rgb(165, 136, 42);
+
+}
+
+.myd2 {
+    display: inline-block;
+    background-color: rgb(165, 136, 42);
+}
+
+.myd3 {
+    display: inline-flex;
+    background-color: rgb(165, 136, 42);
+
+}
+
+
+.myfixed {
+    position: fixed;
+
+    width: 99px;
+    height: 30px;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(248, 66, 66);
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 6px;
+}
+
+a {
+    color: #fff;
+}
+
+
+.myabs {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    text-align: center;
+    background: darkblue;
+    width: 80px;
+    color: bisque;
+    border-radius: 15px;
+    border: 2px solid red;
+    z-index: 1;
+}
+
+
+.myzindex {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    text-align: center;
+    background: rgb(0, 139, 30);
+    width: 100px;
+    color: rgb(233, 210, 182);
+    border-radius: 15px;
+    border: 2px solid rgb(238, 255, 0);
+    z-index: 0;
+}
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.web1 {
+    width: 400px;
+    height: 300px;
+    background: white;
+    position: absolute;
+    left: 600px;
+    bottom: 600px;
+    z-index: -1;
+}
+
+
+.web2 {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 40px;
+    background: red;
+    left: 650px;
+    z-index: -2;
+}
+
+.web3 {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 80px;
+    background: yellow;
+    left: 700px;
+    z-index: -3;
+}
+
+.web4 {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 120px;
+    background: green;
+    left: 750px;
+    z-index: -4;
+}
+
+/* .web1,
+.web2,
+.web3,
+.web4,
+img {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px solid yellowgreen;
+
+} */
+
+
+
+
+
+
+
+
+
+
+/* @media(max-width:700px){
+    .container{
+        background: red;
+    }
+} */
